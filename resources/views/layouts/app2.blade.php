@@ -130,5 +130,15 @@
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                const alert = document.getElementById('alert');
+                if (alert) {
+                    alert.classList.add('hidden');
+                }
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
